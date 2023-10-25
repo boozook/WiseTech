@@ -1,9 +1,20 @@
 [package]
 name = "line_adjustment"
 version = "0.1.0"
-authors = [""]
+authors = ["WiseTech", "Alex Koz <a@koz.email>"]
+license = "MIT OR Apache-2.0"
+publish = false
 edition = "2021"
 
-# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
-[dependencies]
+[profile.release]
+codegen-units = 1
+opt-level = 3
+lto = "fat"
+strip = "symbols"
+debug = false
+debug-assertions = false
+overflow-checks = false
+incremental = false
+rpath = false
+panic = "abort"          # for beches only
