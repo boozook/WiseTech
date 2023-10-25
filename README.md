@@ -52,7 +52,7 @@ test transform_ascii ... bench:     975,087 ns/iter (+/- 9,091)
 
 [org]: https://github.com/WiseTechGlobal
 [first]: https://github.com/boozook/WiseTech/commit/deea7a3c34d71a409152873295eda378af6c690e
-[second]: #
+[second]: https://github.com/boozook/WiseTech/commit/233c4b7ace57206a6da84c5f286b61b189f8c238
 [third]: #
 
 [fn-utf]: https://github.com/boozook/WiseTech/blob/main/src/lib.rs#L44
