@@ -1,0 +1,6 @@
+[build]
+rustflags = ["-C", "target-cpu=native"]
+
+[unstable]
+unstable-options = true
+panic-abort-tests = true
